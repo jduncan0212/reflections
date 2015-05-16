@@ -1,0 +1,7 @@
+--What happens when you initialize a repository? Why do you need to do it?
+
+A repository is greated which included a .git folder with metadata to be filled regarding changes to the directory in the future. Initially all files are untracked and there are no commits, these are two things to do.
+
+--How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It creates a temporary buffer space where you can think about what to include/disinclude in a commit, and it allows you to minimize unnecessary commits or commits that would contain errors etc.
