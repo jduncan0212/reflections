@@ -1,0 +1,31 @@
+It is a lot easier when you only have to compare the changes between two files lined up side by side vs comparing the whole file which can be quite long and looking for very small mistakes.
+
+--How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having to re-save new versions with a numbering scheme (e.g. ~ -1- -2- etc) encourages you
+to only save what seem to be major changes, therefore if you have an error that has crept into a project it could be that you will have to lose a lot of work to go back to a clean 
+version. 
+
+Also, not having to think about who contributed what, when, etc. when making versions until it is necessary is also very helpful. (I would imagine.)
+
+--What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+The best feature is that you have a great deal of  control and if you keep commits at relatively the same size and each to a logical purpose the version history should be readily understandable (at least to you). 
+
+The downside is that you might confuse yourself by committing too often, not enough, or simply committing errors in your project as "fixes" etc
+
+--Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+In Google Docs people are frequently working around files which are either singular (a word document) or files in which a change to one will not usually affect the others (for example, a list of photos and a vistor's guide with these photos) whereas in most computer programming projects often changes to one file may affect others. For example, a class created in one file may be used by several other files.
+
+-- How can you use the commands git log and git diff to view the history of files?
+
+git diff shows the actual lines of code around the differences between 2 commits (might not be directly sequential) while git log or git log --stats shows all of the commits (from most recent at the top) with the files affected and the comments pertaining to each.
+
+--How might using version control make you more confident to make changes that could break something?
+
+If you know you can backtrack to a "safe" version of your application/file then you will (presumably) be more willing to take chances adding in cool new features that you might not entirely understand or be competent to do. This way you can either backtrack or if the cool new features work, keep them.
+
+--Now that you have your workspace set up, what do you want to try using Git for?
+
+I'm not sure, mostly I'm just relieved that all of that worked. Maybe a simple app on android studio involving lists. I dunno.
