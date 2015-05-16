@@ -5,3 +5,19 @@ A repository is greated which included a .git folder with metadata to be filled 
 --How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It creates a temporary buffer space where you can think about what to include/disinclude in a commit, and it allows you to minimize unnecessary commits or commits that would contain errors etc.
+
+--How can you use the staging area to make sure you have one commit per logical change?
+
+By using "git diff" to compared the staging area with the directory (new) and "git diff --staged" to compare the most recent commit with the staging are (new) one can review changes and make sure that they are a.) correct, and b.) a logical group.
+
+--What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpful when you have multiple groups working on overlapping parts of a project, when you want to add a new feature that will significantly alter the existing code or when you want multiple versions of a project with differing priorities in their execution.
+
+--How do the diagrams help you visualize the branch structure?
+
+The diagrams goes left-to-right from the earlier commits to the latest commits in a parent<--child fashion. THis is very helpful for seeing which commits represent the latest common ancestor between two or more branches.
+
+--What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is that two "paths" of commits are connected in a common child. The child contains the changes which have been made in both paths (presumably with a way to resolve conflicts where one path deleted some line and another path added on to it). Since the child of the merge is a result of two (or more ) different branches we draw arrows to all of its parents.
