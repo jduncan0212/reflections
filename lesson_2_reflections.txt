@@ -21,3 +21,10 @@ The diagrams goes left-to-right from the earlier commits to the latest commits i
 --What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The result of merging two branches together is that two "paths" of commits are connected in a common child. The child contains the changes which have been made in both paths (presumably with a way to resolve conflicts where one path deleted some line and another path added on to it). Since the child of the merge is a result of two (or more ) different branches we draw arrows to all of its parents.
+
+--What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The United States is below or to the side of Canada.
+
+Automatic merges would merge using some AI, possibly saving irrevelant or out-dated information. Manual merging requires a little more thought and, if a group is working on a project, communication at the outset but is useful to avoid creating a Merge with stupid/irrelevant/not up-to-date lines losing useful information when merging.
+
